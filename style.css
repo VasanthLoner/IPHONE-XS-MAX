@@ -1,0 +1,534 @@
+@font-face {
+    font-family: pop1;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: pop2;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: pop3;
+    src: url(Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: pop4;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: pop5;
+    src: url(Roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: pop6;
+    src: url(Roboto/Roboto-Regular.ttf);
+}   
+@font-face {
+    font-family: pop7;
+    src: url(Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: pop8;
+    src: url(Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: pop9;
+    src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: pop10;
+    src: url(poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: pop11;
+    src: url(poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: pop12;
+    src: url(poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: pop13;
+    src: url(poppins/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: pop14;
+    src: url(poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: pop15;
+    src: url(poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: pop16;
+    src: url(google-sans-cufonfonts-webfont/ProductSans-Bold.woff);
+}
+@font-face {
+    font-family: pop17;
+    src: url(google-sans-cufonfonts-webfont/ProductSans-Regular.woff);
+}
+@font-face {
+    font-family: pop18;
+    src: url(google-sans-cufonfonts-webfont/ProductSans-Medium.woff);
+}
+@font-face {
+    font-family: pop19;
+    src: url(google-sans-cufonfonts-webfont/ProductSans-Thin.woff);
+}
+
+
+@font-face {
+    font-family: hand1;
+    src: url(poppins/Daniel-Bold.otf);
+}
+@font-face {
+    font-family: hand2;
+    src: url(poppins/MarckScript-Regular.ttf);
+}
+
+.megna{ 
+    background-image: url(backg.jpg);
+    width: 100%;
+    overflow: hidden;
+    height: 5300px;
+}
+.megna1 h1{
+    color:yellow;
+    font-family: pop17;
+    font-size: 50px;
+    width: 500px;
+    margin: 0 0 0 475px;
+    padding: 60px 0 0 0;
+}
+.megna1 h4{
+    color:aliceblue;
+    font-family: pop10;
+    font-size: 21px;
+    width: 450px;
+    margin: 0px 0 0 490px;
+    padding: 10px 0 0 4px;
+}
+.megna2 img{
+    margin: 31px 0 0 -43px;
+    padding: 0 0 0 0;
+    width: 967px;
+    height: 304px;
+    position: relative;
+    animation-name: one;
+    animation-duration: 2s;
+}
+@keyframes one  {
+0% { 
+    margin: 31px 0 0 473px;
+} 
+100%{
+    margin: 31px 0 0 -43px;
+}
+}
+.megna01 img{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 825px;
+    height: 580px;
+    position: relative;
+    animation-name: two;
+    animation-delay: 1s;
+    animation-duration: 4s;
+}
+@keyframes two{
+0% { 
+    opacity: 0%;
+} 
+100%{
+   opacity:100%;
+}
+}
+.megna01 h1{
+    color: yellow;
+    margin: -464px 0 0 866px;
+    font-size: 68px;
+    font-family: pop17;
+    width: 615px;
+    height: 52px;
+}
+.megna01 h4{
+    color: aliceblue;
+    margin: 272px 0 0 866px;
+    font-size: 18px;
+    font-family: pop10;
+    width: 576px;
+}
+
+
+
+.megna02 h2{
+    margin: 140px 0 0 104px;
+    padding: -5px 0 0 -2px;
+    font-size: 36px;
+    font-family: pop4;
+    width: 232px;
+    height: 26px;
+}
+.textg1{
+    background-image: linear-gradient(90deg,magenta,white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    line-height: 28px;
+}
+
+.megna02 h4{
+    color: aliceblue;
+    margin: 25px 0 0 108px;
+    font-size: 17px;
+    font-family: pop6;
+    width: 371px;
+}
+
+
+.megna03 h2{
+    color: aliceblue;
+    margin: -128px 0 0 807px;
+    padding: -5px 0 0 -2px;
+    font-size: 36px;
+    font-family: pop4;
+    width: 224px;
+    height: 32px;
+}
+.megna03 h4{
+    color: aliceblue;
+    margin: 27px 0 0 807px;
+    font-size: 16px;
+    font-family: pop6;
+    width: 371px;
+}
+.megna04 h2{
+    color: aliceblue;
+    margin: -165px 0 0 104px;
+    padding: -5px 0 0 -2px;
+    font-size: 36px;
+    font-family: pop4;
+    width: 224px;
+    height: 32px;
+}
+.megna04 h4{
+    color: aliceblue;
+    margin: 23px 0 0 108px;
+    font-size: 17px;
+    font-family: pop6;
+    width: 371px;
+}
+.megna04 ul{
+    color: aliceblue;
+    margin: -114px 0 0 784px;
+    font-size: 17px;
+    font-family: pop6;
+    width: 384px;
+}
+.op1 img{
+    margin: 100px 0 0 250px;
+    padding: 0 0 0 0;
+    width: 240px;
+    height: 470px;
+    position: relative;
+    animation-name: op1;
+    animation-delay: 3s;
+    animation-duration: 4s;
+}
+@keyframes op1{
+    0% { 
+        margin: 100px 0 0 500px;
+    } 
+    100%{
+        margin: 100px 0 0 250px;
+    }
+}
+.op2 img{ 
+    margin: -462px 0 0 650px;
+    padding: 0 0 0 0;
+    width: 240px;
+    height: 432px;
+    position: relative;
+    animation-name: op2;
+    animation-delay: 4s;
+    animation-duration: 4s;
+}
+@keyframes op2{
+    0% { 
+        margin: -495px 0 0 850px;
+    } 
+    100%{
+        margin: -495px 0 0 650px;
+    }
+}
+.op3 img{ 
+    margin: -527px 0 0 1053px;
+    padding: 0 0 0 0;
+    width: 240px;
+    height: 470px;
+    position: relative;
+    animation-name: op3;
+    animation-delay: 5s;
+    animation-duration: 4s;
+}
+@keyframes op3{
+    0% { 
+        margin: -527px 0 0 1193px;
+    } 
+    100%{
+        margin: -527px 0 0 1053px;
+    }
+}
+.opname1 h1{
+    color: aliceblue;
+    margin: -6px 0 0 244px;
+    font-size: 41px;
+    font-family: pop2;
+    width: 371px;
+}
+.opname1 h4{
+    color: aliceblue;
+    margin: -2px 0 0 295px;
+    font-size: 29px;
+    font-family: pop3;
+    width: 361px;
+}
+.opname2 h1{
+    color: aliceblue;
+    margin:-83px 0 0 677px;
+    font-size: 41px;
+    font-family: pop2;
+    width: 371px;
+}
+.opname2 h4{
+    color: aliceblue;
+    margin: -2px 0 0 695px;
+    font-size: 29px;
+    font-family: pop3;
+    width: 247px;
+}
+.opname3 h1{
+    color: aliceblue;
+    margin: -72px 0 0 1093px;
+    font-size: 41px;
+    font-family: pop2;
+    width: 371px;
+}
+.opname3 h4{
+    color: aliceblue;
+    margin: -2px 0 0 1113px;
+    font-size: 29px;
+    font-family: pop3;
+    width: 361px;
+}
+.right1 img{ 
+    margin: 132px 0 0 873px;
+    padding: 0 0 0 0;
+    width: 561px;
+    height: 700px;
+    position: relative;
+    animation-name: rowz;
+    animation-delay: 6s;
+    animation-duration: 4s;
+}
+@keyframes rowz{
+    0% { 
+        margin: 132px 0 0 573px;
+    } 
+    100%{
+        margin: 132px 0 0 873px;
+    }
+}
+.right1 h1{
+    color: #e7e51e;
+    margin: -618px 0 0 120px;
+    font-size: 49px;
+    font-family: pop11;
+    width: 596px;
+}
+.right1 h4{
+    color: aliceblue;
+    margin: 21px 0 0 122px;
+    font-size: 17px;
+    font-family: pop2;
+    width: 775px;
+}
+.right2 h1{
+    color: #e7e51e;
+    margin: 74px 0 0 119px;
+    font-size: 25px;
+    font-family: pop10;
+    width: 184px;
+}
+.right2 h4{
+    color: aliceblue;
+    margin: 19px 0 0 118px;
+    font-size: 17px;
+    font-family: pop2;
+    width: 175px;
+}
+.right3 h1{
+    color: #e7e51e;
+    margin: -184px 0 0 349px;
+    font-size: 25px;
+    font-family: pop10;
+    width: 239px;
+}
+.right3 h4{
+    color: aliceblue;
+    margin: 15px 0 0 352px;
+    font-size: 17px;
+    font-family: pop2;
+    width: 175px;
+}
+.right4 h1{
+    color: #e7e51e;
+    margin: -199px 0 0 657px;
+    font-size: 25px;
+    font-family: pop10;
+    width: 184px;
+}
+.right4 h4{
+    color: aliceblue;
+    margin: 17px 0 0 657px;
+    font-size: 17px;
+    font-family: pop2;
+    width: 178px;
+}
+.left1 img{
+    margin: 405px 0 0 629px;
+    padding: 0 0 0 0;
+    width: 858px;
+    height: 540px;
+    position: relative;
+    animation-name: seven;
+    animation-delay: 5s;
+    animation-duration: 4s;
+}
+@keyframes seven {
+0%{
+    opacity: 0%;
+}
+100%{
+    opacity: 100%;
+}    
+}
+.line1 img{
+    opacity: 50%;
+    width: 830px;
+    height: 27px;
+    margin: 42px 0 0 194px;
+    padding: -11px 0 0 0;
+}
+.line2 img{
+    opacity: 50%;
+    width: 20px;
+    height: 385px;
+    margin: -194px 0 0 595px;
+    padding: -11px 0 0 0;
+}
+.left1 h1{
+    color: rgb(255, 119, 250);
+    margin: -504px 0 0 128px;
+    font-size: 40px;
+    font-family: pop17;
+    width: 478px;
+}
+.left1 h2{
+    color: aliceblue;
+    margin: 33px 0 0 128px;
+    font-size: 28px;
+    font-family: pop11;
+    width: 480px;
+}
+.left1 h3{
+   
+    color: aliceblue;
+    margin: 26px 0 0 128px;
+    font-size: 16px;
+    font-family: pop10;
+    width: 495px;
+
+}
+.left2 img{
+    margin: 299px 0 0 300px;
+    padding: 0 0 0 0;
+    width: 938px;
+    height: 526px;
+    position: relative;
+    z-index: 10;
+}
+.left3 h1{
+    color: #e7e51e;
+    margin: 0px 0 0 469px;
+    font-size: 60px;
+    font-family: pop10;
+    width: 480px;
+}
+.left3 h2{
+    color: #e7e51e;
+    margin: -1px 0 0 505px;
+    font-size: 60px;
+    font-family: pop10;
+    width: 480px;
+}
+.left3 h3{
+    color: aliceblue;
+    margin: 25px 0 0 466px;
+    font-size: 23px;
+    font-family: pop10;
+    width: 480px;
+}
+.left3 h4{
+    color: aliceblue;
+    margin: 3px 0 0 559px;
+    font-size: 23px;
+    font-family: pop10;
+    width: 480px;
+}
+.grid img{
+    width: 260px;
+    height: 300px;
+}
+.grid{
+    width: 791px;
+    height: 341px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 17px 0 0 355px;
+}
+.credits h1 {
+    color: #ff001e;
+    margin: 365px 0 0 193px;
+    font-size: 15px;
+    font-family: hand1;
+    width: 200px;
+}
+.credits img{
+    width: 166px;
+    height: 100px;
+    margin: -56px 0 0 390px;
+}
+.credits h2{
+    color: #ffffff;
+    margin: -9px 0 0 984px;
+    font-size: 15px;
+    font-family: hand1;
+    width: 480px;
+
+}
+.credits h3{
+    color: #ff00ee;
+    margin: 8px 0 0 1100px;
+    font-size: 23px;
+    font-family: hand2;
+    width: 474px;
+}
+.picholder{
+    width: 100%;
+}
